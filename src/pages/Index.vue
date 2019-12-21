@@ -31,8 +31,7 @@ export default {
     Education,
     Skills,
     Interests,
-    Awards,
-    Blog
+    Awards
   },
   metaInfo: {
     title: "Gridsome Starter Resume for RD",
