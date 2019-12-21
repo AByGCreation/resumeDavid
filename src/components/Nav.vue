@@ -14,22 +14,25 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">About</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#about')">A propos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Experience</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#experience')">Pro</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Education</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#education')">Formations</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Skills</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Competences metiers</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interests</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Competences interpersonnelles</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Awards</a>
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interets</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" v-on:click.prevent="$scrollTo('#awards')">Certifications</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#blog')">Blog</a>

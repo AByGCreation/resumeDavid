@@ -3,11 +3,11 @@
 }
 
 .text-primary {
-  color: $primary !important;
+  color: $AByG_red-0 !important;
 }
 
 a {
-  color: $primary;
+  color: $AByG_blue-0;
 
   &:hover,
   &:focus,
@@ -17,7 +17,7 @@ a {
 }
 
 body {
-  font-family: Avenir, "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+  font-family: $AByG_font, "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
     "Segoe UI Symbol", "Noto Color Emoji";
   padding-top: 54px;
@@ -37,12 +37,12 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
+  font-family: $AByG_font, "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
   text-transform: uppercase;
-  color: $gray-800;
+  color: $AByG_red-50;
 }
 
 h1 {

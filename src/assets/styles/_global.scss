@@ -2,6 +2,7 @@
 
 body {
   @include body-font;
+  background-color: $AByG_blue-0;
   padding-top: 54px;
   color: $gray-600;
 }

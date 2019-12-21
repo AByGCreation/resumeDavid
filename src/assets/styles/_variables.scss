@@ -14,8 +14,47 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$blue: #007bff !default;
-$darkblue: #232e85 !default;
+$AByG_blue-0: #3B5BD7 !default;
+$AByG_blue-50: #456CFE !default;
+$AByG_blue-100: #688FFF !default;
+
+$AByG_red-0: #DB0016 !default;
+$AByG_red-50: #FF344E !default;
+$AByG_red-100: #FE6C77 !default;
+
+
+
+$AByG_teal-0: #00D5E1 !default;
+$AByG_teal-50: #49E6E9 !default;
+$AByG_teal-100: #97F3F5 !default;
+
+$AByG_purple-0: #7800D0 !default;
+$AByG_purple-50: #BC35DB !default;
+$AByG_purple-100: #EA98E9 !default;
+
+$AByG_dark-0: #29273E !default;
+$AByG_dark-50: #565671 !default;
+$AByG_dark-100: #928EA8 !default;
+
+$AByG_light-0: #ECEAEF !default;
+$AByG_light-50: #FAFAFC !default;
+$AByG_light-100: #F2F2F4 !default;
+
+
+$AByG_bg-dark: #1D1B27 !default;
+$AByG_bg-dark-1: #29273E !default;
+
+
+
+
+
+
+
+
+
+
+
+
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
@@ -26,8 +65,11 @@ $green: #28a745 !default;
 $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
-$primary: $orange !default;
-$secondary: $gray-700 !default;
+$primary: $AByG_blue-0 !default;
+$AByG_Backround : $gray-900;
+
+$secondary: $AByG_purple-50 !default;
+
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
@@ -38,3 +80,4 @@ $dark: $gray-800 !default;
 // Page Variables
 
 $sidebar-base-width: 17rem;
+$AByG_font : Avenir;
