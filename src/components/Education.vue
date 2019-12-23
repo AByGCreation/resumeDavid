@@ -5,7 +5,7 @@
 
       <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
         <div class="resume-content">
-          <h3 class="mb-0">University of Bazqux</h3>
+          <h3 class="mb-0">CESI école des managers</h3>
           <div class="subheading mb-3">Postgraduate education in computer science</div>
           <div>Bachelor's degree</div>
           <p>GPA: 3.53</p>
