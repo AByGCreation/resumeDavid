@@ -1,7 +1,7 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/c6a0b67d-7f94-4676-acd9-03ad7716ee98/deploy-status)](https://app.netlify.com/sites/gridsome-starter-resume/deploys)
 [![Greenkeeper badge](https://badges.greenkeeper.io/lokecarlsson/gridsome-starter-resume.svg)](https://greenkeeper.io/)
 
-# Gridsome starter resume
+# Gridsome starter resume for David - Test
 
 This is a starter project for Gridsome that helps you set up a resume quick and easy. It utilizes Bootstrap that is well known for powerful styling and layout.
 
