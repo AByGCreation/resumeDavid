@@ -14,6 +14,9 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
+//_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
+// https://dribbble.com/shots/6456667-Core-Design-System-01-Color-Dark-Theme/attachments
+
 $AByG_blue-0: #3B5BD7 !default;
 $AByG_blue-50: #456CFE !default;
 $AByG_blue-100: #688FFF !default;
@@ -22,7 +25,17 @@ $AByG_red-0: #DB0016 !default;
 $AByG_red-50: #FF344E !default;
 $AByG_red-100: #FE6C77 !default;
 
+$AByG_green-0: #00CE72 !default;
+$AByG_green-50: #00E68C !default;
+$AByG_green-100: #00F7A5 !default;
 
+$AByG_orange-0: #FF7D00 !default;
+$AByG_orange-50: #FFA927 !default;
+$AByG_orange-100: #FFCD6D !default;
+
+$AByG_yellow-0: #FFCF00 !default;
+$AByG_yellow-50: #FFE134 !default;
+$AByG_yellow-100: #FDF26A !default;
 
 $AByG_teal-0: #00D5E1 !default;
 $AByG_teal-50: #49E6E9 !default;
@@ -40,19 +53,11 @@ $AByG_light-0: #ECEAEF !default;
 $AByG_light-50: #FAFAFC !default;
 $AByG_light-100: #F2F2F4 !default;
 
-
 $AByG_bg-dark: #1D1B27 !default;
 $AByG_bg-dark-1: #29273E !default;
 
 
-
-
-
-
-
-
-
-
+//_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_-
 
 
 $indigo: #6610f2 !default;
@@ -66,9 +71,10 @@ $teal: #20c997 !default;
 $cyan: #17a2b8 !default;
 
 $primary: $AByG_blue-0 !default;
-$AByG_Backround : $gray-900;
 
-$secondary: $AByG_purple-50 !default;
+$AByG_Background : $AByG_bg-dark;
+
+$secondary: $AByG_yellow-0 !default;
 
 $success: $green !default;
 $info: $cyan !default;

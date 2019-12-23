@@ -42,7 +42,7 @@ export default {
 
 <style lang="scss">
 .subheading {
-  text-transform: uppercase;
+  //text-transform: uppercase;
   font-weight: 500;
   font-family: Avenir, "Saira Extra Condensed", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
@@ -70,7 +70,7 @@ section.resume-section {
 }
 
 section.resume-section .resume-item .resume-date {
-  min-width: none;
+  min-width: initial;
 }
 
 @media (min-width: 768px) {

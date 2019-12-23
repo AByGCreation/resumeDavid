@@ -51,7 +51,7 @@
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
-  text-transform: uppercase;
+ // text-transform: uppercase;
 }
 
 #sideNav .navbar-toggler:focus {

@@ -1,18 +1,22 @@
 .bg-primary {
-  background-color: $primary !important;
+  background-color: #1B2462  !important;//$AByG_blue-0
+}
+
+.text-italic {
+  font-style: oblique;
 }
 
 .text-primary {
-  color: $AByG_red-0 !important;
+  color: $AByG_light-0 !important;
 }
 
 a {
-  color: $AByG_blue-0;
+  color: $AByG_light-0;
 
   &:hover,
   &:focus,
   &:active {
-    color: darken($primary, 15%);
+    color: darken($white, 15%);
   }
 }
 
@@ -41,7 +45,7 @@ h6 {
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: none;
   color: $AByG_dark-50;
 }
 

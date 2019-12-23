@@ -2,20 +2,18 @@
   <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="about">
     <div class="w-100">
       <h1 class="mb-0">
-        David
-        <span class="text-primary">RAMBEAU</span>
+        <span class="text-italic">{{prenom}} </span>
+        <span class="text-primary">{{nom}}</span>
       </h1>
       <div class="subheading mb-5">
-        19 rue de SAUX, 54113 Gye, FRANCE
-        <a
+        <a href="#"> {{status}}</a>
+        <span class="text-italic"> <a
           href="mailto:david.rambeau@gmail.com"
-        >david.rambeau@gmail.com</a>
+        > - david.rambeau@gmail.com</a></span>
       </div>
-      <p
-        class="lead mb-5"
-      >I am experienced in Vue.js and React.js in which I produce high quality code for my clients that are both well performing and well tested. I focus on solving problems, not only technical problems but creating an awesome experience for the users of my software both visual and accessible. Mixing powerful tools and knowledge about the users brings visual UI's to life and leads to webpages being accessible and useful.</p>
-      <p class="lead mb-5">
-        Get your own resume started using this template with Gridsome here:
+      <p class="lead mb-5">{{descriptionw}} </p>
+
+      <p class="lead mb-5">Get your own resume started using this template with Gridsome here:
         <a
           href="https://github.com/LokeCarlsson/gridsome-starter-resume"
           target="_blank"
@@ -42,6 +40,24 @@
     </div>
   </section>
 </template>
+
+<script>
+
+
+  module.exports = {
+    data: function() {
+      let dates = (new Date().getFullYear()-2005);
+console.debug("AByG_ → "+dates);
+      return {
+        status:'Chef de projet',
+        adress: 'Nancy → Grand EST → FRANCE',
+        descriptionw: 'Avec '+dates +' années d\'experiences dans le milieu de l\'electronique industrielle que j\'ai pu me constituer une solide base de "competences" technique  pour répondre à des problematiques listées plus bas.',
+        nom: 'RAMBEAU',
+        prenom: 'David'
+      }
+    }
+  }
+</script>
 
 <style lang="scss" scoped>
 .social-icons a {

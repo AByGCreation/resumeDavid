@@ -1,11 +1,11 @@
 module.exports = {
-  siteName: 'Gridsome starter resume',
-  siteDescription: 'A starter project for Gridsome with Bootstrap for you to quickly build a resume.',
-  siteUrl: 'https://gridsome-starter-resume.loke.dev',
+  siteName: 'CV de David RAMBEAU',
+  siteDescription: 'Retrouver mon CV detaillé de facon plus evocatrice.',
+  siteUrl: 'https://www.',
   plugins: [{
       use: '@gridsome/plugin-google-analytics',
       options: {
-        id: 'UA-72659574-11'
+        id: 'UA-'
       }
     },
     {
@@ -14,6 +14,7 @@ module.exports = {
         cacheTime: 600000
       }
     }
+
   ],
   css: {
     loaderOptions: {
