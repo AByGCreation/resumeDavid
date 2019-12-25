@@ -12,6 +12,8 @@
       <Interests/>
       <hr class="m-0">
       <Awards/>
+      <hr class="m-0">
+      <Blog/>
     </div>
   </Layout>
 </template>
@@ -23,6 +25,7 @@ import Education from "../components/Education";
 import Skills from "../components/Skills";
 import Interests from "../components/Interests";
 import Awards from "../components/Awards";
+import Blog from "../components/Blog";
 
 export default {
   components: {
@@ -31,7 +34,8 @@ export default {
     Education,
     Skills,
     Interests,
-    Awards
+    Awards,
+    Blog
   },
   metaInfo: {
     title: "Gridsome Starter Resume for RD",

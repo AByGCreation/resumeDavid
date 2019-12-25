@@ -39,6 +39,25 @@
         </li>
       </ul>
     </div>
+
+    <div class="dev-icons">
+      <a href="https://linkedin.com/in/davidrambeau" target="_blank" >
+        <font-awesome :icon="['fab', 'linkedin']"/>
+      </a>
+      <a href="https://github.com/abygcreation" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'github']"/>
+      </a>
+      <a href="https://twitter.com/s" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'twitter']"/>
+      </a>
+
+      <a href="https://david.rambeau.dev" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'dev']"/>
+      </a>
+    </div>
+
+
+
   </nav>
 </template>
 
