@@ -4,25 +4,19 @@
       <h2 class="mb-5">Awards &amp; Certifications</h2>
       <ul class="fa-ul mb-0">
         <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>CSS Design Awards
+          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>Excellence operationnelle
         </li>
         <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>Shopify Commerce Awards
+          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>Robotic process automation
         </li>
         <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>1
-          <sup>st</sup>
-          Place - Foobar - Emerging Tech Competition 2012
+          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>RGPD
         </li>
         <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>1
-          <sup>st</sup>
-          Place - Foo Bar High School - Hackathon 2010
+          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>TANU
         </li>
         <li>
-          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>3
-          <sup>rd</sup>
-          Place - Foo Bar High School - Hackathon 2009
+          <font-awesome class="fa-li text-warning" :icon="['fas', 'trophy']"/>
         </li>
       </ul>
     </div>
