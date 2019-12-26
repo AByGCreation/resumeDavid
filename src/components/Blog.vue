@@ -7,6 +7,17 @@
                 src="../assets/images/pictureAvatar.jpg"
                 class="img-fluid img-profile rounded-circle mx-auto mb-2"
         />
+
+
+
+      <p class="lead mb-5">Get your own resume started using this template with Gridsome here:
+        <a
+                href="https://github.com/LokeCarlsson/gridsome-starter-resume"
+                target="_blank"
+                rel="noopener noreferrer"
+        >Github repo</a>.
+      </p>
+
       </span>
     </div>
 </template>

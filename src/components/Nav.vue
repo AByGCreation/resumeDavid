@@ -25,9 +25,9 @@
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#skills')">Competences metiers</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Competences interpersonnelles</a>
-        </li>
+<!--        <li class="nav-item">-->
+<!--          <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Competences interpersonnelles</a>-->
+<!--        </li>-->
         <li class="nav-item">
           <a class="nav-link" v-on:click.prevent="$scrollTo('#interests')">Interets</a>
         </li>
@@ -50,9 +50,8 @@
       <a href="https://twitter.com/s" target="_blank" rel="noopener noreferrer">
         <font-awesome :icon="['fab', 'twitter']"/>
       </a>
-
       <a href="https://david.rambeau.dev" target="_blank" rel="noopener noreferrer">
-        <font-awesome :icon="['fab', 'dev']"/>
+        <font-awesome :icon="['fab', 'wix']"/> &nbsp;
       </a>
     </div>
 

@@ -13,6 +13,12 @@ module.exports = {
       options: {
         cacheTime: 600000
       }
+    },
+    {
+      use: '@gridsome/source-faker',
+      options: {
+        numNode: 50
+      }
     }
 
   ],

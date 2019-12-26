@@ -13,30 +13,7 @@
       </div>
       <p class="lead mb-5">{{descriptionw}} </p>
 
-      <p class="lead mb-5">Get your own resume started using this template with Gridsome here:
-        <a
-          href="https://github.com/LokeCarlsson/gridsome-starter-resume"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Github repo</a>.
-      </p>
-      <div class="social-icons">
-        <a href="https://linkedin.com/in/davidrambeau" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'linkedin']"/>
-        </a>
-        <a href="https://github.com/abygcreation" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'github']"/>
-        </a>
-        <a href="https://twitter.com/s" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'twitter']"/>
-        </a>
-        <a href="https://www.facebook.com/s" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fab', 'facebook']"/>
-        </a>
-        <a href="https://david.rambeau.dev" target="_blank" rel="noopener noreferrer">
-          <font-awesome :icon="['fas', 'rss']"/>
-        </a>
-      </div>
+
     </div>
   </section>
 </template>
