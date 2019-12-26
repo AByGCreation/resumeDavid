@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div v-for="edge in $page.test.edges" :key="edge.node.id">
+        <div v-for="edge in $page.Faker.edges" :key="edge.node.id">
             <h2>{{ edge.node.title }}</h2>
         </div>
     </div>
@@ -11,7 +11,7 @@
 <page-query>
     query
     {
-        allFaker (perPage: 1)
+        Faker: allFaker (perPage: 1)
         {
             edges
             {

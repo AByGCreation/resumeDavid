@@ -2,17 +2,17 @@
   <Layout>
     <div class="container-fluid p-0">
       <About/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Experience/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Education/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Skills/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Interests/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Awards/>
-      <hr class="m-0">
+        <hr class="m-0">
       <Blog/>
     </div>
   </Layout>

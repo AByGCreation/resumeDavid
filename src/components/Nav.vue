@@ -50,8 +50,8 @@
       <a href="https://twitter.com/s" target="_blank" rel="noopener noreferrer">
         <font-awesome :icon="['fab', 'twitter']"/>
       </a>
-      <a href="https://david.rambeau.dev" target="_blank" rel="noopener noreferrer">
-        <font-awesome :icon="['fab', 'wix']"/> &nbsp;
+      <a href="https://medium.com/@david.rambeau" target="_blank" rel="noopener noreferrer">
+        <font-awesome :icon="['fab', 'medium-m']"/>
       </a>
     </div>
 
