@@ -38,8 +38,8 @@ export default {
     Blog
   },
   metaInfo: {
-    title: "Gridsome Starter Resume for RD",
-    titleTemplate: "%s - Create your resume quick and easy!"
+    title: "CV de David RAMBEAU, detaillé",
+    titleTemplate: "%s - Plus le reste..."
   }
 };
 </script>
@@ -54,6 +54,36 @@ export default {
   font-size: 1.5rem;
 }
 
+.citation{
+  font-style: italic;
+}
+
+.jobTitle{
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: right;
+}
+.jobNotation{
+  float: left;
+}
+
+.logoSchool{
+  float: left;
+  height: 40px;
+  width: 40px;
+  background-size: contain;
+  margin-right: 10px;
+}
+.logoCesi{
+  background-image: url("../assets/images/LogoCesi.png");
+}
+.logoUL{
+  background-image: url("../assets/images/LogoUL.png");
+}
+.logoBX{
+  background-image: url("../assets/images/LogoBX.jpg");
+  height:30px;
+}
 .fa-ul > li {
   display: flex;
   align-items: center;

@@ -11,8 +11,11 @@ import {
 import {
   faTrophy,
   faRss,
-  faCheck
+  faCheck,
+    faQuoteLeft,
+    faQuoteRight
 } from '@fortawesome/free-solid-svg-icons'
+
 import {
   faGithub,
   faTwitter,
@@ -31,8 +34,9 @@ import {
   faWordpress,
   faGulp,
   faGrunt,
-  faNpm,
+  faNpm
 } from '@fortawesome/free-brands-svg-icons'
+
 import {
   FontAwesomeIcon
 } from '@fortawesome/vue-fontawesome'
@@ -59,21 +63,23 @@ library.add(
   faNpm,
   faRss,
   faCheck,
-)
+    faQuoteLeft,
+    faQuoteRight
+);
 
 export default function (Vue, {
   head,
 }) {
-  Vue.use(VueScrollTo)
-  Vue.use(BootstrapVue)
-  Vue.component('Layout', DefaultLayout)
+  Vue.use(VueScrollTo);
+  Vue.use(BootstrapVue);
+  Vue.component('Layout', DefaultLayout);
 
-  Vue.component('font-awesome', FontAwesomeIcon)
+  Vue.component('font-awesome', FontAwesomeIcon);
 
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700'
-  })
+  });
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i'

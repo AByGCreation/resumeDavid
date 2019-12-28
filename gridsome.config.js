@@ -20,11 +20,17 @@ module.exports = {
         numNode: 50
       }
     }
-
+    ,
+    {
+      use: 'strava-v3',
+      options: {
+        numNode: 50
+      }
+    }
   ],
   css: {
     loaderOptions: {
       scss: {}
     }
   }
-}
+};
